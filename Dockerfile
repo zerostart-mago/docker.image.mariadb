@@ -25,3 +25,5 @@ RUN \
 
 EXPOSE \
     3306
+
+VOLUME ["/run/mysqld"]
